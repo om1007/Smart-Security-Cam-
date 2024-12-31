@@ -183,11 +183,11 @@ alarm_sounding = False
 security_notification_sent = False
 
 # Telegram bot token and chat ID
-TELEGRAM_BOT_TOKEN = '7384217991:AAG6HXvs-HkdEAlLD1KbyiQ66cWc_bkiaFs'
-TELEGRAM_CHAT_ID = '6707952441'
-TELEGRAM_BOT_TOKEN_SEC = '7644487145:AAG7vb7NA3fHIBh_AtlMWxveVops0Y2HBOY'  # sec bot token
-TELEGRAM_CHAT_ID_SEC = '6707952441'  # sec bot chat ID
-car_image_path = r"C:\Users\om\Desktop\2\map.png"  # Replace with your car image path
+TELEGRAM_BOT_TOKEN = 'Enter Bot token Here '
+TELEGRAM_CHAT_ID = 'Enter telegram chat id  Here'
+TELEGRAM_BOT_TOKEN_SEC = 'Enter Bot token Here'  # sec bot token
+TELEGRAM_CHAT_ID_SEC = 'Enter telegram chat id  Here'  # sec bot chat ID
+car_image_path = r"Enter image path here"  # Replace with your car image path
 
 while True:
     success, img = cap.read()
