@@ -41,7 +41,7 @@ GENDER_LIST = ['Male', 'Female']
 pygame.mixer.init()
 
 # Load the alarm sound
-alarm_sound = pygame.mixer.Sound(r"C:\Users\om\Desktop\2\alert.wav")
+alarm_sound = pygame.mixer.Sound(r"Enter sound clip path here")
 
 # Function to send message to Telegram
 def send_telegram_message(bot_token, chat_id, message, video_path=None, photo_path=None):
